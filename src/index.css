@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  height: 70px;
+}
+
+.input-field {
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+.button-add {
+  width: 60px;
+  height: 30px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.changer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.dropdown {
+  width: 300px;
+}
+
+.list-forex {
+  margin-top: 50px;
+}
+
+.converter {
+  display: flex;
+  flex-direction: row;
+}
+
+.converter-del {
+  width: 20px;
+  margin: 10px 20px;
+  cursor: pointer;
+  background-color: red;
+  color: aliceblue;
+}
+
+.converter-label {
+  margin: 10px 20px;
+}
+
+.converter-code {
+  margin: 10px 20px;
+}
+
+.converter-price {
+  margin: 10px 20px;
+}
